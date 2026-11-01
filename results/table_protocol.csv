@@ -1,0 +1,6 @@
+model,strict_acc,strict_macroF1,strict_unmatched,lexicon_acc,lexicon_macroF1,lexicon_unmatched,score_acc,score_macroF1,agree_lex_vs_score,mcnemar_p_lex_vs_score,status_counts
+blip_vqa_closed,46.936,20.673,33.214,51.434,23.989,0.0,55.476,24.975,83.181,0.0,"{'exact': 2049, 'lexicon': 1019}"
+blip_vqa_open,45.176,21.191,17.08,53.52,31.741,1.597,52.477,30.626,93.774,0.0,"{'exact': 2544, 'lexicon': 475, 'unmatched': 49}"
+instructblip_v7b,38.429,35.123,36.05,50.359,44.069,0.391,51.402,44.843,95.437,0.0,"{'exact': 1962, 'lexicon': 1094, 'unmatched': 12}"
+llava15_7b,63.95,48.212,0.0,63.95,48.212,0.0,64.048,48.295,99.641,0.375,{'exact': 3068}
+qwen25vl_7b,64.439,53.239,0.0,64.439,53.239,0.0,64.57,53.413,99.674,0.219,{'exact': 3068}
